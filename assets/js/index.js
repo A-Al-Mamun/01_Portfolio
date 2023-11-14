@@ -79,6 +79,7 @@ const closeItem = () =>{
     closeITEM.style.display = 'none';
 }
 
+
 // Text Hide and show
 const moreText = () => {
     const spanText = document.getElementById('readMore');
@@ -135,6 +136,7 @@ const closeContact = () =>{
     closeITEM.style.display = 'none';
 }
 
+
 const socialHover = () => {
     const icon1 = document.getElementById('icon1');
     const icon2 = document.getElementById('icon2');
@@ -151,6 +153,7 @@ const socialHover = () => {
     icon6.style.display = 'inline-block';
     
 }
+
 
 const offBtn = () => {
     const icon1 = document.getElementById('icon1');
