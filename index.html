@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Abdullah Al Mamun">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 Portfolio Design | HTML Template Design </title>
+
+    <!-- Font Awesome version 6 CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- Google Font | Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+    <!-- Custom Css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Main Section Start -->
+    <section class="main">
+        <div class="main-menu">
+            <i class="fa-solid fa-bars" id="navBar" onclick="navMenu()"></i>
+            <nav id="menu">
+                <i class="fa-solid fa-xmark" onclick="closeNav()"></i>
+                <a href="#">Home</a>
+                <a href="#main-bottom">About</a>
+                <a href="#main-bottom">Education & Experience</a>
+                <a href="#main-bottom">Skills</a>
+                <a href="#main-bottom">Contact</a>
+            </nav>
+        </div>
+
+        <img src="./assets/img/profile.jpg" alt="">
+        <h1>A-Al-Mamun</h1>
+
+        <span is="type-async" id="type-text">...</span><span class="blinking-cursor">|</span>
+
+        <div class="social-menu">
+            <a href="https://www.facebook.com/"  target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/"   target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="main-btn">
+            <a href="#main-bottom">.</a>
+        </div>
+    </section>
+    <!-- Main Section End -->
+
+    <!-- Main Bottom Section Start -->
+    <section id="main-bottom">
+        <div class="item">
+            <h1>About</h1>
+            <a href="#about" onclick="aboutShow()">Click</a>
+            <div id="about">
+                <i class="fa-solid fa-xmark" onclick="closeItem()"></i>
+                <h1>About Me</h1>
+                <div class="about-inner">
+                    <div class="about-inner-text">
+                        <p id="readMore">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, ad asperiores ipsam architecto, necessitatibus quam placeat eius in deleniti praesentium dolorem numquam nihil incidunt assumenda quis fugit! Fugit ducimus praesentium omnis dolores placeat animi perspiciatis minus dolorem, harum, nihil dicta beatae, rem necessitatibus sed maxime nemo tempore tenetur. Facilis harum voluptatum sapiente repudiandae quaerat quo ad consectetur! Excepturi, aspernatur a! Veritatis, nihil odio! Officiis sit corporis minus placeat tempore reprehenderit molestiae accusantium. Corrupti, tempore. Itaque necessitatibus veniam eveniet? Nostrum, qui omnis obcaecati deleniti cupiditate perferendis voluptate, possimus, ex sequi quibusdam quis unde commodi laborum maiores atque. Saepe error tempore corporis.
+                        <span onclick="moreText()">Read More</span>
+                        <span onclick="lessText()"></span>
+                        </p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="about-inner-img">
+                        <img src="./assets/img/profile.jpg" alt="About-Us">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="item">
+            <h1>Education & Experience</h1>
+            <a href="#eduexe" onclick="eduShow()">Click</a>
+            <div id="eduexe">
+                <i class="fa-solid fa-xmark" onclick="closeEdu()"></i>
+                <h1>Education And Experience</h1>
+                <div class="eduexe-inner">
+                    <div class="eduexe-inner-left">
+                        <a href="#eduexe" onclick="exe()">Experience</a>
+                        <a href="#eduexe" onclick="edu()">Education</a>
+                        <a href="#eduexe" onclick="work()">Work</a>
+                    </div>
+                    <div class="eduexe-inner-right">
+                        <div class="exe">
+                            <h2>Experience</h2>
+                            <div>
+                                <h3>Daily Practicing</h3>
+                                <h4>HTML, CSS, JavaScripts</h4>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Web Design And Animation</h3>
+                                <h4>Genuity Training System</h4>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                        
+                        </div>
+                        <div class="edu">
+                            <h2>Education</h2>
+                            <div>
+                                <h3>Bachelor in Computer Science And Engineering</h3>
+                                <h4>Bangladesh University of Business And Technology</h4>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Bachelor in Computer Science And Engineering</h3>
+                                <h4>Bangladesh University of Business And Technology</h4>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Bachelor in Computer Science And Engineering</h3>
+                                <h4>Bangladesh University of Business And Technology</h4>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <h2>Works</h2>
+                            <div>
+                                <h3>eCommerse Web App</h3>
+                                <h4>HTML, CSS, php, Laravel v9, MySql, Visual Basic Code</h4>
+                                <p>Self Learn Practicing</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>PortfolioHTML Template</h3>
+                                <h4>HTML, CSS, JavaScript, Visual Basic Code</h4>
+                                <p>Self Learn Practicing</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Full Website by HTML Template</h3>
+                                <h4>HTML, CSS, JavaScript, Visual Basic Code</h4>
+                                <p>Self Learn Practicing</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Hospital Website HTML Template</h3>
+                                <h4>HTML, CSS, JavaScript, Visual Basic Code</h4>
+                                <p>Self Learn Practicing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="item">
+            <h1>Skills</h1>
+            <a href="#skill" onclick="skillShow()">Click</a>
+            <div id="skill">
+                <i class="fa-solid fa-xmark" onclick="closeSkill()"></i>
+                <h1>Skills</h1>
+                <div class="skill-inner">
+                    <div class="skill-item">HTML</div>
+                    <div class="skill-item"><progress value="80" max="100"></progress></div>
+                    <div class="skill-item">CSS</div>
+                    <div class="skill-item"><progress value="70" max="100"></progress></div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                    <div class="skill-item">Vue JS</div>
+                    <div class="skill-item"><progress value="80" max="100"></progress></div>
+                    <div class="skill-item">Bootstrap</div>
+                    <div class="skill-item"><progress value="70" max="100"></progress></div>
+                    <div class="skill-item">PHP</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                    <div class="skill-item">MySql</div>
+                    <div class="skill-item"><progress value="80" max="100"></progress></div>
+                    <div class="skill-item">Laravel</div>
+                    <div class="skill-item"><progress value="70" max="100"></progress></div>
+                    <div class="skill-item">WordPress</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                    <div class="skill-item">MS-Word</div>
+                    <div class="skill-item"><progress value="80" max="100"></progress></div>
+                    <div class="skill-item">Ms-Excel</div>
+                    <div class="skill-item"><progress value="70" max="100"></progress></div>
+                    <div class="skill-item">Google Doc</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                    <div class="skill-item">Google Sheet</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                    <div class="skill-item">Adobe Photoshop</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                    <div class="skill-item">Adobe Illustrator</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                    <div class="skill-item">Video Editing</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                    <div class="skill-item">C Program</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                    <div class="skill-item">C++ Program</div>
+                    <div class="skill-item"><progress value="60" max="100"></progress></div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="item">
+            <h1>Contact</h1>
+            <a href="#contact" onclick="contactShow()">Click</a>
+            <div id="contact">
+                <i class="fa-solid fa-xmark" onclick="closeContact()"></i>
+                <h1>Contact</h1>
+                <div class="contact-inner">
+                    <form class="contact-form" action="#">
+                        <input type="text" name="" id="name"
+                        placeholder="Enter the name">
+                        <input type="email" name="" id="email" placeholder="Enter the email">
+                        <textarea name="" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                        <button>Send</button>
+                        
+                        <div id="socialMenu" class="contact-social-menu">
+                            <a href="#contact"><i class="fa-solid fa-chevron-right" id="icon1" onclick="socialHover()" ></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" id="icon2" ></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" id="icon3"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin" id="icon4"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube" id="icon5"></i></a>
+                            <a href="#contact"><i id="icon6"  class="fa-solid fa-chevron-left" onclick="offBtn()"></i></a>
+                        </div>
+                    </form>
+                    <div class="contact-address">
+                        <i class="fa-solid fa-address-book"> Bangladesh</i>
+                        <i class="fa-solid fa-phone"> +00-0000-0000-0000</i>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Main Bottom Section End -->
+    
+
+    <!-- Custome JavaScript link -->
+    
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
